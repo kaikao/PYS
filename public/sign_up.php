@@ -1,11 +1,16 @@
 <?php 
-
-
+unset($_COOKIE['is_remembered']);
+if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
+    //header('Location: http://tw.yahoo.com');
+}
+    // save cookie for 2 hrs
+    //setcookie('cookie_'.CC::CITY, $VARS[CC::CITY], time()+60*60*2);
 ?>
 
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Plan YourSelf - 註冊會員</title>
+        <title>Plan YourSelf - Registration</title>
         <link href="css/sign_up.css" rel="stylesheet" type="text/css" />
         <link href="css/navigation.css" rel="stylesheet" type="text/css" />
     </head>

@@ -10,6 +10,7 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 
 <!DOCTYPE html>
 <html>
+	<title>Index</title>
 	<head>
 	<style type="text/css">
 	body
