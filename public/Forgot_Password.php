@@ -10,7 +10,7 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 <!DOCTYPE html>
 <html>
   <head>
- 		<title>Forgot password</title>
+ 		<title>Forgot_password</title>
         <link href="css/Forgot_Password.css" rel="stylesheet" type="text/css" />
         <link href="css/navigation.css" rel="stylesheet" type="text/css" />
     </head>
@@ -23,15 +23,22 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 		    <li><a href="contact.php"><em class="contact"></em><strong>Contact Me</strong></a></li>
 		</ul>
   	<div id="style" class="form1">
+  		<form action="">
   		<h1>Forgot your password? </h1> 
   		
   		<p>Enter your Username as registered</p>
-  		<p>Username</p><input type=text></br>
-  	    <p>Email Address</p><input type=text>
+  		<table cellpadding="15">
+  			<tr>
+  		<td><label>Username</td><td><input type="text" name="Username"></label></td> 
+  		</tr>
+  		    <tr>
+  	    <td><label>Email Address</td><td><input type="text" name="Email_Address"></label></td>
+  	    </tr>
+  	       </table>
   	    </br>
   	    </br>
   		<button>Send me password now</button>
-  		
+  		</form>
   		
   		
   		

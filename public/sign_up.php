@@ -5,6 +5,11 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 }
     // save cookie for 2 hrs
     //setcookie('cookie_'.CC::CITY, $VARS[CC::CITY], time()+60*60*2);
+
+var_dump("handsomeme");
+
+
+
 ?>
 
 <!DOCTYPE html>
