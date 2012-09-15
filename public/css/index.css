@@ -1,0 +1,81 @@
+
+
+
+
+#content {
+	font-family:Fixedsys;
+	min-width:800px;
+	margin:auto;
+	width:80%;
+}
+
+#menu, #login {
+	height:400px;
+	position:relative;
+	top:50px;
+}
+
+#menu {
+	width:60%;
+ 
+	float:left;
+}
+
+#menu ul{
+	list-style:square;
+	
+}
+
+
+
+#login { 
+	width:40%;
+    text-align:center;
+    float:right;
+}
+#login ul input{
+	width:120px;
+	height: 30px;
+}
+
+#login ul{
+	padding-left:0;
+	
+}
+#login ul li{
+	
+    list-style:none;	
+    display:inline;
+   
+    
+}       	
+       	
+
+label {
+display:block;	
+font-size:30px;
+
+}
+
+
+fieldset {
+	border:1px solid black;
+}
+
+footer {
+	background-color:#91FFC9;
+	height:50px;
+}
+
+
+//foor {
+	
+	height:50px;
+	width:1000px;
+	background-color: " 
+	align="center"
+}
+
+
+   
+
