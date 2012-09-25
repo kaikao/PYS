@@ -18,27 +18,13 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 <body>
 
 <div id="content">	
- <h1>Plan Your Self</h1> 
+ <h1 class="title"></h1> 
  <hr noshade>
-
-
-  <div id="menu">
-    <h2>Welcome to project PYS<h2>
-    <p>Register now to enjoy the following features</p>
    
-    <font size=5 face="Courier New">
-    	<ul>
-    	<li>Increase your productivity</li>	
-        <li>Plan your life </li>
-        <li>Monitor your personal schedule</li>
-    </ul>
-     </div></font>
-
-  <div id="login" >
-    
+ <div class="login" >
+    <h1>Project  P.Y.S</h1>
     <form>
-	<fieldset>
-	
+		
 	<label for="account">Account</label> 
 	<input id="account" name="account" />
 	<label for="password">Password</label> 
@@ -53,19 +39,30 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 	 	 </li> 
 	 </ul>
 	 	 	 <a href="#">Forgot password? </a>
-	</fieldset>
+	
 	</form>
+	    
 		</div>
-	
-<hr noshade>
 
-<footer>
-	&copy All rights reserved by Wesley, Kai, James
-</footer>
+  <div class="menu">
+    <h1>Welcome to project PYS</h1>
+    <p>Register now to enjoy the following features</p>
+   
+    <font size=5 face="Courier New">
+    	<ul>
+    	<li>Increase your productivity</li>	
+        <li>Plan your life </li>
+        <li>Monitor your personal schedule</li>
+    </ul>
+     </div></font>
 
-	
-</div>	
+ 
+    <hr noshade>
+     <footer><p>&copy All rights reserved by Wesley, Kai, James</p></footer>
+    
 
+
+</div>
 
 </body>
 </html>

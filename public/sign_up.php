@@ -29,7 +29,7 @@ var_dump("handsomeme");
 		</ul>
         <div id="stylized" class="myform">
             <form id="sign_up_form" name="form" method="post" action="control/add_member.php">
-                <h1>Sign-up form</h1>
+                <h1>Sign-up Now</h1>
                 <p>Let us create your awesome account!!</p>
                 
                 <label>Account
