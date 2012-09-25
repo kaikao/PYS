@@ -1,0 +1,69 @@
+body{
+
+}
+h1{
+	margin:0;
+}
+h2{
+	margin:0 ;
+}
+.title {
+	font-family:cursive;
+	text-shadow: 3px 3px 4px green;
+	margin-bottom: 20px;
+}
+#content {
+	font-family:Fixedsys;
+	min-width:800px;
+	margin:auto;
+	width:80%;
+	position:relative;
+	background-color:#276056;
+}
+
+.menu, .login {
+	
+	
+}
+.login { 
+    width:60%;
+    text-align:center;
+    margin:0 auto;
+    background-color:#999999;
+}
+.login ul input{
+	width:120px;
+	height: 30px;
+	font-size:16px;
+}
+.login ul{
+	padding-left:0;
+}
+.login ul li{
+    list-style:none;	
+    display:inline;
+}    
+.menu {	
+    background-color:#FF0000;
+}
+.menu ul{
+	list-style:square;
+}
+.menu ul li{
+	padding: 5px 0;
+}
+   	
+label {
+display:block;	
+font-size:30px;
+}
+
+footer {
+	
+	clear:both;
+}
+
+
+
+   
+

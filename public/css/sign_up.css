@@ -10,20 +10,23 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 margin:0 auto;
 width:400px;
 padding:14px;
+top:50px;
+position: relative;
+
 }
 
 /* ----------- stylized ----------- */
 #stylized{
 border:solid 2px #b7ddf2;
 background:#ebf4fb;
-position: relative;
-top: 50px;
+
 }
 #stylized h1 {
 font-size:14px;
 font-weight:bold;
 margin-bottom:8px;
 }
+
 #stylized p{
 font-size:11px;
 color:#666666;
