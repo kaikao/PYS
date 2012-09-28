@@ -1,0 +1,122 @@
+body{
+	width:1000px;
+	margin:0 auto;
+}
+
+li{
+	list-style:none;
+}
+
+/* start of Navigation css */
+
+.navigation {
+padding:0 0 0 20px;
+margin:0;
+list-style:none;
+height:40px;
+background:#1841c8 url(../images/nav_icons/nav_background.gif);
+}
+
+.navigation li {
+float:left;
+}
+.navigation li a {
+display:block;
+float:left;
+height:40px;
+line-height:40px;
+color:#FFFFFF;
+text-decoration:none;
+font-family:arial, verdana, sans-serif;
+text-align:center;
+padding:0 0 0 10px;
+font-size:11px;
+}
+.navigation li a b {
+    float:left;
+    display:block;
+    padding:0 16px 0 8px;
+}
+
+.navigation li.current a {
+    color:#FFFFFF;
+    background:url(../images/nav_icons/nav_hover.gif);
+}
+.navigation li a:hover {
+    color:#00CCFF;
+    background: url(../images/nav_icons/nav_hover.gif);
+}
+.navigation li a em {
+    display:block;
+    float:left;
+    width:30px;
+    height:40px;
+}
+
+/* ICON ELEMENTS */
+ 
+.navigation li a em.home {
+    background-image: url(../images/nav_icons/home.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navigation li a em.templates {
+    background-image: url(../images/nav_icons/templates.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navigation li a em.psd {
+    background-image: url(../images/nav_icons/psd.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navigation li a em.tutorials {
+    background-image: url(../images/nav_icons/tutorials.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navigation li a em.contact {
+    background-image: url(../images/nav_icons/contact.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* End of Navigation css */
+
+
+#plan{
+	
+}
+.plan_preview, .plan_action{
+	height:250px;
+}
+
+
+.plan_preview{
+	width:70%;
+	background-color:#E35553;
+	float:left;
+}
+
+.plan_action{
+	width:30%;
+	background-color:#00CCFF;
+	float:right;
+} 
+.plan_action ul{
+	margin-top:20px;
+}
+.plan_action ul li{
+	padding:20px;
+	font-size:25px;
+}
+
+.Achivement li{
+	display:inline;
+}
+
+.df_plan{
+	margin-top:20px;
+}
+
