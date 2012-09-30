@@ -19,7 +19,6 @@ if (isset($_COOKIE['is_remembered']) && $_COOKIE['is_remembered'] == true) {
 
 <div id="content">	
  <h1 class="title"></h1> 
- <hr noshade>
    
  <div class="login" >
     <h1>Project  P.Y.S</h1>
