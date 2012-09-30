@@ -1,5 +1,14 @@
 body{
+background: #0e0e0e; /* Old browsers */
+background: -moz-linear-gradient(top,  #0e0e0e 3%, #7d7e7d 83%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#0e0e0e), color-stop(83%,#7d7e7d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0e0e0e 3%,#7d7e7d 83%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0e0e0e 3%,#7d7e7d 83%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0e0e0e 3%,#7d7e7d 83%); /* IE10+ */
+background: linear-gradient(to bottom,  #0e0e0e 3%,#7d7e7d 83%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
 
+color:#B7DDF2;
 }
 h1{
 	margin:0;
@@ -16,10 +25,10 @@ h2{
 	font-family:Fixedsys;
 	min-width:800px;
 	margin:auto;
-	width:80%;
-	position:relative;
-	background-color:#276056;
-}
+	width:70%;
+	
+	
+	}
 
 .menu, .login {
 	
@@ -27,9 +36,13 @@ h2{
 }
 .login { 
     width:60%;
+    padding:40px;
     text-align:center;
-    margin:0 auto;
-    background-color:#999999;
+    margin:50px auto;
+   
+}
+.login h1{
+	margin-bottom:20px;
 }
 .login ul input{
 	width:120px;
@@ -44,13 +57,14 @@ h2{
     display:inline;
 }    
 .menu {	
-    background-color:#FF0000;
+    
 }
 .menu ul{
 	list-style:square;
 }
 .menu ul li{
 	padding: 5px 0;
+	list-style:none;
 }
    	
 label {
