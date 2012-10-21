@@ -7,7 +7,7 @@ background: -o-linear-gradient(top,  #0e0e0e 3%,#7d7e7d 83%); /* Opera 11.10+ */
 background: -ms-linear-gradient(top,  #0e0e0e 3%,#7d7e7d 83%); /* IE10+ */
 background: linear-gradient(to bottom,  #0e0e0e 3%,#7d7e7d 83%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
-
+background-image:url('http://www.wallpapercube.com/lake-view_wallpapers_3738_1920x1440.jpg');
 color:#B7DDF2;
 }
 h1{
@@ -26,20 +26,20 @@ h2{
 	min-width:800px;
 	margin:auto;
 	width:70%;
-	
-	
+
+
 	}
 
 .menu, .login {
-	
-	
+
+
 }
-.login { 
+.login {
     width:60%;
     padding:40px;
     text-align:center;
     margin:50px auto;
-   
+
 }
 .login h1{
 	margin-bottom:20px;
@@ -53,11 +53,11 @@ h2{
 	padding-left:0;
 }
 .login ul li{
-    list-style:none;	
+    list-style:none;
     display:inline;
-}    
-.menu {	
-    
+}
+.menu {
+
 }
 .menu ul{
 	list-style:square;
@@ -66,18 +66,14 @@ h2{
 	padding: 5px 0;
 	list-style:none;
 }
-   	
+
 label {
-display:block;	
+display:block;
 font-size:30px;
 }
 
 footer {
-	
+
 	clear:both;
 }
-
-
-
-   
 
