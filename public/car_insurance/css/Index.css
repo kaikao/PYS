@@ -1,0 +1,425 @@
+body{
+	margin:0 0 0 0;
+	
+}
+.title{
+	background:#2A414D;
+	height:134px;
+
+}
+h1{
+	margin-top:0;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 15px;
+	font-family:"Century Gothic";
+	color:#CFC6C6;
+}
+h2{
+	font-family:Georgia;
+}
+h3{
+	font-family: Georgia;
+}
+p{
+    font-family: "Comic Sans MS";
+}
+
+ul li a{
+	text-decoration:none;
+}
+
+.navigation{
+	background:#CFCACA;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height:26px;
+	margin:-26px auto 0 auto;
+	width:960px;
+}
+
+.navigation li{
+	display:inline;
+	font-family:Helvetica;
+	
+}
+.navigation li:after{
+	content:"|";
+	font-size:20px;
+	color:#181789;
+	padding:0 28px;
+
+}
+
+.navigation li a{
+		text-decoration:none;
+		font-size:20px;
+		color:#02354D;
+		
+}
+.navigation li a:hover{
+text-decoration:underline;
+}
+
+
+#preview{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+
+}
+
+.preview_left{
+	width:370px;
+	height:300px;
+	float:left;
+}
+.preview_left h2{
+	margin-top:10px;
+	margin-left:15px;
+}
+.preview_left p{
+	font-family:"Comic Sans MS";
+	margin-left:15px;
+}
+
+.getquote{
+	background:#CFCACA;
+	
+	padding-bottom: 16px;
+	margin-top: 10px;
+    margin-right: 10px;
+
+	border:1px solid #807B7B ;
+	border-bottom:1px dashed #807B7B ;
+	
+	
+}
+.getquote input{
+	border:none;
+    -moz-box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    border-radius:3px;
+    width:150px;
+	height:30px;
+	margin-left:15px;
+	font-size:20px;
+}
+
+.getquote a{
+	background:#CFC6C6;
+	text-decoration:none;
+	margin-left:7px;
+	padding:7px;
+	color:white;
+	border-radius:4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	background:-webkit-linear-gradient(top, #7C7F80 0%,#A5ADAF 50%,#7C7F80 100%)
+}
+
+.getquote a:hover{
+	background:-webkit-linear-gradient(top, #A5ADAF 0%,#7C7F80 50%,#A5ADAF 100%)
+}
+
+.enterzip{
+	background:#B3DBDA;
+	padding-top:7px;
+	margin-right:10px;
+	border:1px solid #807B7B ;
+	border-top:none;
+	height: 135px;
+}
+
+.preview_right{
+	background-image:url('../img/calculator2.jpg');
+	background-repeat:no-repeat;
+	background-position:right;
+	float:right;
+	width:630px;
+	height:300px;
+    position:relative;
+}
+.preview_right img{
+	padding-left:50px;
+}
+.preview_right .cartext{
+	font-family:Latha;
+	font-size:25px;
+	color:#CFC6C6;
+    position:absolute;
+    top:20px;
+    left:10px;
+}
+
+.preview_right .cartext2{
+	font-family:Latha;
+	font-size:25px;
+	color:#DF0000;
+    position:absolute;
+    top:20px;
+    left:210px;
+}
+.preview_right .cartext3{
+	font-style:italic;
+	font-size:20px;
+	letter-spacing:2px;
+	line-height:30px;
+	color:#DDBF8A;
+    position:absolute;
+    top:80px;
+    left:10px;
+}
+
+.carbutton{
+	position:absolute;
+	top:180px;
+	left:30px;
+	font-size:20px;
+	padding:20px 10px;
+	border:2px solid white;
+	background:#CFC6C6;
+	text-decoration:none;
+	color:white;
+	border-radius:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:-webkit-linear-gradient(top, #2CFF00 0%,#1FAC04 50%,#157202 100%)
+}
+
+a.carbutton:hover{
+	background:-webkit-linear-gradient(top, #157202 0%,#1FAC04 50%,#2CFF00 100%)
+}
+#discount_background{
+	background:#2A414D;
+}
+#discount{
+	width:1000px;
+	height:150px;
+	margin:20px auto 0px auto;
+	position:relative;
+}
+.top5, .agent, .facebook{
+	width:320px;
+	height:160px;
+	position:relative;
+	
+}
+#discount h3{
+	margin-top: 26px;
+	margin-bottom: 0;
+	font-size:16px;
+	color:#CFC6C6;
+}
+#discount p{
+	
+	color:#DDBF8A;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+
+
+.top5_picture, .agent_picture, .facebook_picture{
+	float:left;
+	margin-top:30px;
+	margin-right: 5px
+}
+.top5_paragraph, .agent_paragraph, .facebook_paragraph{
+	padding-left:5px;
+}
+.top5_cont, .agent_cont, .facebook_cont{
+	position:absolute;
+	right:0;
+	bottom:30px;
+	font-family: "Comic Sans MS";
+	
+}
+.top5_cont a, .agent_cont a, .facebook_cont a{
+	color:#DDBF8A;
+	font-size: 14px;
+}
+#discount a:hover{
+	color:white;
+}
+.top5{
+	float:left;
+}
+
+.top5_paragraph{
+	
+}
+.agent{
+	float:left;
+	margin-left:20px;
+}
+.facebook{
+	float:left;
+	margin-left:20px;
+}
+
+
+#feedbackground{
+	background: #193847;
+	-webkit-background-size: 2px 3px;
+	background-image: 
+	-webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, 
+	                                rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+#feedback{
+	width:1000px;
+	height:620px;
+	margin:0 auto;
+	
+}
+.news{
+	width:300px;
+	height:500px;
+	
+	float:left;
+}
+.news h2, .news h3{
+	margin-left:10px;
+	margin-right: 15px;
+	color:white;
+}
+.news h2{
+	border-bottom: 3px ridge #807B7B;
+	margin-bottom: 0;
+	padding-bottom: 15px;
+}
+.news h3{
+	margin-top: 0;
+	padding-top: 15px;
+}
+.news ul li{
+	list-style:none;
+	height:100px;
+	margin-right:20px;
+}
+.news ul li a{
+	color:#DDBF8A;
+}
+
+.story{
+	width:700px;
+	height:600px;
+	background:#2A414D;
+    float:right;
+}
+
+.story h3, .story h2{
+	color:white;
+}
+
+
+.story_left_top, .story_right_top, .story_left_bottom, .story_right_bottom{
+	width:320px;
+	height:250px
+}
+
+/* Getting the right auto insurance*/
+
+.story_left_top{
+	float:left;
+	margin-left:20px;
+	position:relative;
+}
+.story_left_top h3{
+	float:right;
+	width:210px;
+}
+.story_left_top img{
+	float:left;
+}
+.story_left_top p{
+	clear:both;
+	margin-top:100px;
+	color:#A5ADAF;
+}
+
+.story_left_top_cont{
+	position:absolute;
+	right:0;
+	bottom:6px;
+	font-family: "Comic Sans MS";
+}
+.story_left_top_cont a{
+	color:#A5ADAF;
+}
+
+.story_left_top_cont a:hover{
+	color:black;
+}
+
+/* Question column*/
+
+.story_right_top{
+	
+	float:right;
+	margin-right:20px;
+}
+.story_right_top h3{
+	float:left;
+	width:220px;
+	margin-left:25px;
+}
+.story_right_top img{
+	float:right;
+}
+.story_right_top ul {
+	float:left;
+	margin-top:0;
+}
+.story_right_top ul li {
+	line-height:20px;
+	list-style:disc;
+}
+.story_right_top ul li a{
+	color:#B3DBDA;
+	font-family:"Arial Narrow";
+	letter-spacing:1px;
+}
+.story_right_top ul li:last-child{
+	margin-top:20px;
+	list-style:none;
+	text-decoration:underline;
+}
+.story_right_top ul li a:hover{
+	color:black;
+}
+
+
+/* Quick CA Insurance Fact column*/
+
+.story_left_bottom{
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.story_left_bottom ul li {
+	line-height:20px;
+	list-style:disc;
+}
+.story_left_bottom ul li a{
+	color:#B3DBDA;
+	font-family:"Arial Narrow";
+	letter-spacing:1px;
+}
+
+/* Empty Column*/
+
+.story_right_bottom{
+	background:#7C7F80;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+}
+#footer{
+	clear:both;
+	background:#2A414D;
+	color:white;
+	text-align:center;
+
+}
