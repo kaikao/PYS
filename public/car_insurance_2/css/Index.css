@@ -1,0 +1,265 @@
+body{
+	background:#CDD1CD;
+	-webkit-background-size: 230px 230px;
+	background-image: 
+	-webkit-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, 
+	                                rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+#full_content{
+	width:1000px;
+	height:1500px;
+	margin:0 auto;
+	background:white;
+	border:2px solid white;
+	border-radius:10px;
+}
+
+#title h1{
+	font-family: Lobster, cursive;
+	color:#C17F42;
+	padding-left: 60px;
+	font-size: 40px;
+}
+#title span{
+	color:#3B8CA5;
+}
+
+
+#navigation{
+	background:#388DA8;
+	
+}
+
+#navigation li{
+	line-height:40px;
+	display:inline;
+	list-style:none;
+}
+
+#navigation li:after{
+	content:"|";
+	font-size:20px;
+	color:black;
+	padding:0 25px;
+
+}
+
+#navigation li a{
+	text-decoration:none;
+	color:#E4BF8F;
+	font-size:20px;
+	font: normal normal normal 14px/1.1em Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	padding:0 14px 0 14px;
+}
+
+#navigation li a:hover{
+	color:white;
+}
+
+#preview{
+	position:relative;
+}
+
+#preview h1{
+	font-family:"Lucida Sans";
+	letter-spacing:3px;
+	font-size:35px;
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+
+#preview p{
+	font-family: "Arial Narrow";
+	font-size: 25px;
+	color: #838383;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+
+.quote_email{
+	position:absolute;
+	top:155px;
+	left:100px;	
+	border:none;
+    -moz-box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    box-shadow:-2px -2px 3px rgba(20%,20%,40%,0.5);
+    border-radius:3px;
+    border: 2px solid #9FA59F;
+    height:30px;
+    font-size:20px;
+}
+
+.carbutton{
+	position:absolute;
+	top:202px;
+	left:226px;
+	padding:5px 10px;
+	border:2px solid #9FA59F;
+	border-radius:16px;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	background: -webkit-linear-gradient(top, #ACCDD8 0%,#388DA8 50%,#106C8A 100%);
+	color: white;
+}
+
+#preview a:hover{
+	background: -webkit-linear-gradient(top, #106C8A 0%,#106C8A 50%,#106C8A 100%);
+}
+
+#preview img{
+	height:650px;
+	width:1000px;
+}
+
+.discount_left{
+	width:650px;
+	height:500px;
+	float:left;
+	margin-left:15px;
+	
+}
+
+.right_insurance h1{
+	margin-top: -13px;
+	padding-bottom: 15px;
+	color: #3B8CA5;
+	font-family: Lobster, cursive;
+	border-bottom: 1px solid #C0AEAE;
+	letter-spacing:1px;
+	float:left;
+}
+.right_insurance img{
+	float:left;
+	padding-right:10px;
+}
+
+
+.right_insurance p{
+	font: normal normal normal 18px/1.3em Helvetica, Arial, sans-serif;
+	color: #C17F42;
+	float: right;
+	width: 550px;
+	margin-top: 0px;
+}
+
+.questions h1, .ca_facts h1{
+	font-size:25px;
+	padding-bottom: 15px;
+	color: #3B8CA5;
+	font-family: Lobster, cursive;
+	border-bottom: 1px solid #C0AEAE;
+	letter-spacing:1px;
+	float:left;
+}
+
+.questions{
+	float:left;
+	width:260px;
+	position:relative;
+}
+
+
+.questions ul {
+	float:left;
+	margin-top:0;
+	padding-left: 20px;
+}
+.questions ul li {
+	line-height:25px;
+	list-style:disc;
+}
+.questions ul li a{
+	color:#505E5D;
+	font-family:"Arial Narrow";
+	letter-spacing:1px;
+	text-decoration:none;
+}
+.questions ul li:last-child{
+	margin-top:20px;
+	list-style:none;
+	text-decoration:underline;
+}
+.questions ul li a:hover{
+	color:red;
+}
+
+
+.ca_facts{
+	width:380px;
+	float:right;
+}
+.ca_facts ul {
+	float:left;
+	margin-top:0;
+	padding-left: 20px;
+}
+.ca_facts ul li {
+	line-height:25px;
+	list-style:disc;
+}
+.ca_facts ul li a{
+	color:#505E5D;
+	font-family:"Arial Narrow";
+	letter-spacing:1px;
+	text-decoration:none;
+}
+
+.ca_facts ul li:last-child{
+	margin-top:20px;
+	list-style:none;
+	text-decoration:underline;
+}
+.ca_facts ul li a:hover{
+	color:red;
+}
+
+.discount_right{
+	width:323px;
+	height:650px;
+	margin-right:10px;
+	float:right;
+	border:1px solid #ACADAD;
+	border-radius:5px;
+	
+}
+
+.discount_right img{
+	width:80px;
+	height:70px;
+	margin-left:115px;
+}
+
+.discount_right h2{
+	font-family: Lobster, cursive;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.discount_right p{
+	font-size: 17px;
+	line-height: 25px;
+	font-family: Georgia;
+	margin-top:5px;
+}
+
+.top5 p, .agent p{
+	border-bottom:1px dashed #838383;
+	padding-bottom: 15px;
+	margin-right: 10px;
+}
+
+.top5, .agent, .facebook{
+	padding-left:10px;
+	
+}
+
+.top5{
+	margin-top:10px;
+}
+
